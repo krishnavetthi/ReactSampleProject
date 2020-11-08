@@ -1,11 +1,11 @@
 import React from "react";
-
-const Header = () => (
+import avataars from "./assets/img/avataaars.svg"
+const Header = ()  => (
     
         <header className="masthead bg-primary text-white text-center">
             <div className="container d-flex align-items-center flex-column">
                 
-                <img className="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
+                <img className="masthead-avatar mb-5" src={avataars} alt="" />
                 
                 <h1 className="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
                 
