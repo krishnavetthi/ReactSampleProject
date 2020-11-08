@@ -1,4 +1,10 @@
 import React from "react";
+import cabin from "./assets/img/portfolio/cabin.png";
+import cake from "./assets/img/portfolio/cake.png";
+import circus from "./assets/img/portfolio/circus.png";
+import game from "./assets/img/portfolio/game.png"
+import safe from "./assets/img/portfolio/safe.png"
+import submarine from "./assets/img/portfolio/submarine.png"
 
 const PortfolioModals = () => (
     <div>
@@ -21,7 +27,7 @@ const PortfolioModals = () => (
                                     <div className="divider-custom-line"></div>
                                 </div>
                                 {/* <!-- Portfolio Modal - Image--> */}
-                                <img className="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
+                                <img className="img-fluid rounded mb-5" src={cabin} alt="" />
                                 {/* <!-- Portfolio Modal - Text--> */}
                                 <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 <button className="btn btn-primary" data-dismiss="modal">
@@ -55,7 +61,7 @@ const PortfolioModals = () => (
                                     <div className="divider-custom-line"></div>
                                 </div>
                                 {/* <!-- Portfolio Modal - Image--> */}
-                                <img className="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="" />
+                                <img className="img-fluid rounded mb-5" src={cake} alt="" />
                                 {/* <!-- Portfolio Modal - Text--> */}
                                 <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 <button className="btn btn-primary" data-dismiss="modal">
@@ -89,7 +95,7 @@ const PortfolioModals = () => (
                                     <div className="divider-custom-line"></div>
                                 </div>
                                 {/* <!-- Portfolio Modal - Image--> */}
-                                <img className="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" />
+                                <img className="img-fluid rounded mb-5" src={circus} alt="" />
                                 {/* <!-- Portfolio Modal - Text--> */}
                                 <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 <button className="btn btn-primary" data-dismiss="modal">
@@ -123,7 +129,7 @@ const PortfolioModals = () => (
                                     <div className="divider-custom-line"></div>
                                 </div>
                                 {/* <!-- Portfolio Modal - Image--> */}
-                                <img className="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" />
+                                <img className="img-fluid rounded mb-5" src={game} alt="" />
                                 {/* <!-- Portfolio Modal - Text--> */}
                                 <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 <button className="btn btn-primary" data-dismiss="modal">
@@ -157,7 +163,7 @@ const PortfolioModals = () => (
                                     <div className="divider-custom-line"></div>
                                 </div>
                                 {/* <!-- Portfolio Modal - Image--> */}
-                                <img className="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" />
+                                <img className="img-fluid rounded mb-5" src={safe} alt="" />
                                 {/* <!-- Portfolio Modal - Text--> */}
                                 <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 <button className="btn btn-primary" data-dismiss="modal">
@@ -191,7 +197,7 @@ const PortfolioModals = () => (
                                     <div className="divider-custom-line"></div>
                                 </div>
                                 {/* <!-- Portfolio Modal - Image--> */}
-                                <img className="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" />
+                                <img className="img-fluid rounded mb-5" src={submarine} alt="" />
                                 {/* <!-- Portfolio Modal - Text--> */}
                                 <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                 <button className="btn btn-primary" data-dismiss="modal">
